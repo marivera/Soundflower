@@ -1,0 +1,12 @@
+#summary ChangeLog for Soundflower.
+
+= Version 1.3 =
+
+  * Merging volumes control patch by Joachim Bengtsson <joachimb@gmail.com>. This version of Soundflower has been modified to allow the use of the volume, balance, mute and gain controls.
+  * Dropping support for MacOS 10.2.x because that isn't included with the developer tools anymore. 
+ 
+
+= Version 1.2.1 =
+
+  * Initial import from Cycling '74 into Google Code.
+
