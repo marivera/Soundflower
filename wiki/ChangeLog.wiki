@@ -2,7 +2,7 @@
 
 == Version 1.3 ==
 
-  * Merging volumes control patch by Joachim Bengtsson <joachimb@gmail.com>. This version of Soundflower has been modified to allow the use of the volume, balance, mute and gain controls.
+  * Merging volumes control patch by Joachim Bengtsson <joachimb@gmail.com> and some other patches made by Rogue Amoeba. This version of Soundflower has been modified to allow the use of the volume, balance, mute and gain controls.
   * Dropping support for MacOS 10.2.x because that isn't included with the developer tools anymore. 
  
 
