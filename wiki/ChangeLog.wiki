@@ -1,7 +1,7 @@
 #summary ChangeLog for Soundflower.
 #labels Featured
 
-== Version 1.4 (In Development) ==
+== Version 1.4 ==
 
   * Initial release of merged and cleaned-up sources from GoogleCode.
   * Dropped support for OS 10.3.x (now supporting OS 10.4.x and OS 10.5.x).
@@ -25,4 +25,3 @@
   * Added better handling when device property changes [ sr, # streams, etc ]
   * Added smarter matching of sample rates
   * Now attempts to deal with system sleeps.
-
