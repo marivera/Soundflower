@@ -4,7 +4,7 @@
 == Version 1.4.1 ==
 
   * Fixed problems reported with Soundflower not working with Ableton Live (problem introduced in version 1.3)
-  * SoundflowerBed now compiled as a Universal Binary, and installed with the installer.
+  * !SoundflowerBed now compiled as a Universal Binary, and installed with the installer.
   * New uninstaller (an applescript application to remove all components)
   * Fixed problem introduced in version 1.4 that prevent downgrading the version of Soundflower installed.
   * Cleaned up unnecessary debug posts going to the console.
