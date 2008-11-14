@@ -1,9 +1,18 @@
 #summary ChangeLog for Soundflower.
-#labels Featured
+#labels Featured,Phase-Deploy
+
+== Version 1.4.1 ==
+
+  * Fixed problems reported with Soundflower not working with Ableton Live (problem introduced in version 1.3)
+  * SoundflowerBed now compiled as a Universal Binary, and installed with the installer.
+  * New uninstaller (an applescript application to remove all components)
+  * Fixed problem introduced in version 1.4 that prevent downgrading the version of Soundflower installed.
+  * Cleaned up unnecessary debug posts going to the console.
+
 
 == Version 1.4 ==
 
-  * Initial release of merged and cleaned-up sources from GoogleCode.
+  * Initial release of merged and cleaned-up sources from !GoogleCode.
   * Dropped support for OS 10.3.x (now supporting OS 10.4.x and OS 10.5.x).
 
 
