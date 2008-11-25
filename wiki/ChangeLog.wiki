@@ -1,6 +1,11 @@
 #summary ChangeLog for Soundflower.
 #labels Featured,Phase-Deploy
 
+== Version 1.4.3 ==
+
+* Fixed SoundflowerBed not launching on OS 10.4.
+
+
 == Version 1.4.2 ==
 
   * Fixed problems with Soundflower not installing correctly on OS 10.4.
