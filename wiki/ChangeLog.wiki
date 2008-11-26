@@ -3,7 +3,7 @@
 
 == Version 1.4.3 ==
 
-  * Fixed SoundflowerBed not launching on OS 10.4.
+  * Fixed !SoundflowerBed not launching on OS 10.4.
 
 
 == Version 1.4.2 ==
