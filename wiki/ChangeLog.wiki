@@ -1,6 +1,9 @@
 #summary ChangeLog for Soundflower.
 #labels Featured,Phase-Deploy
 
+A more detailed list of changes can be found @ http://github.com/tap/Soundflower/commits/master
+
+
 == Version 1.5 ==
 
   * Added compatibility with OS 10.6
