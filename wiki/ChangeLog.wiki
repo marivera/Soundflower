@@ -1,6 +1,12 @@
 #summary ChangeLog for Soundflower.
 #labels Featured,Phase-Deploy
 
+== Version 1.5 ==
+
+  * Added compatibility with OS 10.6
+  * Dropped support for OS 10.4 (10.4 users can use version 1.4.3)
+
+
 == Version 1.4.3 ==
 
   * Fixed !SoundflowerBed not launching on OS 10.4.
