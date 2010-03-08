@@ -11,7 +11,7 @@ Soundflower was originally developed and financed by Cycling '74.  Good informat
 Additional contributions or resources have come by the way of:
   * [http://rogueamoeba.com/ Rogue Amoeba]
   * [http://thirdcog.eu/apps/soundflower Third Cog]
-
+  * Morton Heller
 
 = Notifications =
 
