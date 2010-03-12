@@ -8,8 +8,8 @@ A more detailed list of changes can be found @ http://github.com/tap/Soundflower
 
   * The dynamic range of the volume controls increased from 18 dB to 72 dB
   * Soundflower now supports more sample-rates, up to 192 KHz, by default. 
-  * SoundflowerBed now properly remembers it's input setting when waking the computer from sleep (bug fix submitted by Morton Heller)
-	* SoundflowerBed now runs properly following headphones being plugged-in or unplugged while playing back from soundflower	instead of producing noise
+  * !SoundflowerBed now properly remembers it's input setting when waking the computer from sleep (bug fix submitted by Morton Heller)
+  * !SoundflowerBed now runs properly following headphones being plugged-in or unplugged while playing back from soundflower	instead of producing noise
 
 
 == Version 1.5.1 ==
