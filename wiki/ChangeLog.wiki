@@ -3,6 +3,10 @@
 
 A more detailed list of changes can be found @ http://github.com/tap/Soundflower/commits/master
 
+== Version 1.5.3 (In Progress) ==
+
+  * SoundflowerBed: new 'clone to all channels' feature submitted by iSchemy.
+
 
 == Version 1.5.2 ==
 
