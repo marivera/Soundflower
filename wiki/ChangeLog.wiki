@@ -7,6 +7,7 @@ A more detailed list of changes can be found @ http://github.com/tap/Soundflower
 
   * !SoundflowerBed: new 'clone to all channels' feature submitted by iSchemy.
   * Volume controls are logarithmic
+  * Permissions fix for admin users who are not 501
 
 == Version 1.5.2 ==
 
