@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wKU
+#!/usr/bin/env ruby
 
 ###################################################################
 # make an installer for Soundflower
@@ -22,7 +22,6 @@ Dir.chdir libdir        # change to libdir so that requires work
 Dir.chdir @svn_root
 @svn_root = Dir.pwd
 
-
 ###################################################################
 # sub routines
 ###################################################################
@@ -36,7 +35,7 @@ def create_logs
   @error_log.flush
   trap("SIGINT") { die }
 end
-  
+
 def die
   close_logs
   exit 0
@@ -59,12 +58,11 @@ def log_error(str)
   @error_log.flush
 end
 
-
 # This defines a wrapper that we use to call shell commands
 def cmd(commandString)
   out = ""
   err = ""
-  
+
   Open3.popen3(commandString) do |stdin, stdout, stderr|
     out = stdout.read
     err = stderr.read
@@ -73,7 +71,6 @@ def cmd(commandString)
   log_error(err)
 end
 
-
 def getversion()
   theVersion = "0.0.0"
 
@@ -81,7 +78,7 @@ def getversion()
   str = f.read
   theVersion = str.match(/<key>CFBundleShortVersionString<\/key>\n.*<string>(.*)<\/string>/).captures[0]
   f.close
-  
+
   puts"  version: #{theVersion}"
   return theVersion;
 end
@@ -117,4 +114,6 @@ puts "  All done!"
 
 close_logs
 puts ""
+
 exit 0
+

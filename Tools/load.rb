@@ -19,7 +19,7 @@ Dir.chdir libdir        # change to libdir so that requires work
 @svn_root = ".."
 
 puts "  Unloading and removing existing Soundflower.kext"
-if File.exists?("/System/Library/Extensions/Soundflower.kext")
+if File.exist?("/System/Library/Extensions/Soundflower.kext")
   puts "    first unload (will often fail, but will cause Soundflower's performAudioEngineStop to be called)"
   `sudo kextunload /System/Library/Extensions/Soundflower.kext`
   puts "    second unload (this one should work)"
@@ -35,4 +35,6 @@ puts "  Copying to /System/Library/Extensions and loading kext"
 
 puts "  Done."
 puts ""
+
 exit 0
+

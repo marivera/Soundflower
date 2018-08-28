@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wKU
+#!/usr/bin/env ruby
 
 ###################################################################
 # build Soundflower, install it, and start it
@@ -41,7 +41,6 @@ Open3.popen3("xcodebuild -project Soundflower.xcodeproj -target SoundflowerDrive
   err = stderr.read
 end
 
-
 if /BUILD SUCCEEDED/.match(out)
   puts "    BUILD SUCCEEDED"
   puts `ruby #{@svn_root}/Tools/load.rb`
@@ -49,7 +48,7 @@ else
   puts "    BUILD FAILED"
 end
 
-
 puts "  Done."
 puts ""
 exit 0
+
